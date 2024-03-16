@@ -36,12 +36,13 @@ https://www.youtube.com/watch?v=RdcbOagrEI8
 
 1. Dynamixel2Arduinoライブラリをインストールします．ROBOTIS e-manualを参照してください．
     Install Dynamixel2Arduino library from ROBOTIS e-manual.
+   
     ROBOTIS e-manual : [日本語](https://emanual.robotis.com/docs/en/software/arduino_ide_jp/), [English](https://emanual.robotis.com/docs/en/software/arduino_ide/)
 
-2. Arduino IDEで[同封のサンプルコード](example_m5core2_dynamixel\example_m5core2_dynamixel.ino)を開いて，M5Stack Core2へ書き込みます．
+3. Arduino IDEで[同封のサンプルコード](example_m5core2_dynamixel\example_m5core2_dynamixel.ino)を開いて，M5Stack Core2へ書き込みます．
     Open the enclosed example code with Arduino IDE and write it to M5Stack Core2.
 
-3. [Usage](#usage) の動画を参考に配線して電源を投入してください．
+4. [Usage](#usage) の動画を参考に配線して電源を投入してください．
     Please refer to the Usage video to wire and turn on the power.
 
 ### PlatformIO
