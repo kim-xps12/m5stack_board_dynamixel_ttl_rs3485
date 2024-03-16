@@ -57,8 +57,10 @@ I import it into the global library so that it can be used from other projects a
 
 ## Distribution
 本基板（完成品）はboothで頒布中です．よろしければご利用ください．
-https://b-sky-lab.booth.pm/
+
+[https://b-sky-lab.booth.pm/items/5576375](https://b-sky-lab.booth.pm/items/5576375)
 
 ## Disclaimer
 MITライセンスでの公開です．本設計および頒布した基板において生じた一切の損害等について作者は責任を負いません．予めご了承ください．
+
 This is released under the MIT license. The author is not responsible for any damage caused to this design or the distributed board. Please note.
