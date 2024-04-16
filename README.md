@@ -39,8 +39,8 @@ https://www.youtube.com/watch?v=RdcbOagrEI8
    
     ROBOTIS e-manual : [日本語](https://emanual.robotis.com/docs/en/software/arduino_ide_jp/), [English](https://emanual.robotis.com/docs/en/software/arduino_ide/)
 
-3. Arduino IDEで[同封のサンプルコード](example_m5core2_dynamixel_arduino_ide\example_m5core2_dynamixel_arduino_ide.ino)を開いて，M5Stack Core2へ書き込みます．
-    Open the enclosed [example code](example_m5core2_dynamixel_arduino_ide\example_m5core2_dynamixel_arduino_ide.ino) with Arduino IDE and write it to M5Stack Core2.
+3. Arduino IDEで[同封のサンプルコード](example_m5core2_dynamixel_arduino_ide/example_m5core2_dynamixel_arduino_ide.ino)を開いて，M5Stack Core2へ書き込みます．
+    Open the enclosed [example code](example_m5core2_dynamixel_arduino_ide/example_m5core2_dynamixel_arduino_ide.ino) with Arduino IDE and write it to M5Stack Core2.
 
 4. [Usage](#usage) の動画を参考に配線して電源を投入してください．
     Please refer to the Usage video to wire and turn on the power.
