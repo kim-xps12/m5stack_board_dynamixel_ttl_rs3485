@@ -17,6 +17,16 @@ https://www.youtube.com/watch?v=RdcbOagrEI8
 
 ![](./docs/schematics.png)
 
+## Pin assign
+
+![](./docs/pin_assign.png)
+
+## Layout
+
+unit: millimetre
+
+![](./docs/size.png)
+
 ## BOM
 | Symbol | Model Number |URL, Values|
 | --- | --- | --- |
