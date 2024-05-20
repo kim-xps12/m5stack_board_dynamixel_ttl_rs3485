@@ -24,6 +24,8 @@ void setup() {
   M5.Display.println("DYNAMIXEL TTL");
   M5.Display.println("");
   M5.Display.println("Velocity Mode Example");
+  M5.Display.println("");
+  M5.Display.println("Initializing...");
   DEBUG_SERIAL.begin(115200);
 
   dxl.begin(57600);
@@ -38,16 +40,38 @@ void setup() {
 
 void loop() {
 
+  // Reset display
+  M5.Display.clear();
+  M5.Display.setCursor(0, 0);
+
   // Set Goal Velocity using RPM
   dxl.setGoalVelocity(DXL_ID, 60, UNIT_RPM);
   delay(1000);
+
+  int rpm = dxl.getPresentVelocity(DXL_ID, UNIT_RPM);
+
+  DEBUG_SERIAL.print("Target Velocity(rpm): 60");
   DEBUG_SERIAL.print("Present Velocity(rpm) : ");
-  DEBUG_SERIAL.println(dxl.getPresentVelocity(DXL_ID, UNIT_RPM));
+  DEBUG_SERIAL.println(rpm);
+  M5.Display.println("DYNAMIXEL TTL");
+  M5.Display.println("Target Velocity(rpm): 60");
+  M5.Display.print("Present Velocity(rpm) : ");
+  M5.Display.println(rpm);
+  M5.Display.println("");
   delay(1000);
 
   dxl.setGoalVelocity(DXL_ID, -60, UNIT_RPM);
   delay(1000);
-  DEBUG_SERIAL.print("Present Velocity(rpm) : ");
-  DEBUG_SERIAL.println(dxl.getPresentVelocity(DXL_ID, UNIT_RPM));
+
+  rpm = dxl.getPresentVelocity(DXL_ID, UNIT_RPM);
+  DEBUG_SERIAL.println("Target Velocity(rpm): -60");
+  DEBUG_SERIAL.print("Present Velocity(rpm): ");
+  DEBUG_SERIAL.println(rpm);
+
+  M5.Display.println("DYNAMIXEL TTL");
+  M5.Display.println("Target Velocity(rpm): -60");
+  M5.Display.print("Present Velocity(rpm): ");
+  M5.Display.println(rpm);
+  M5.Display.println("");
   delay(1000);
 }
