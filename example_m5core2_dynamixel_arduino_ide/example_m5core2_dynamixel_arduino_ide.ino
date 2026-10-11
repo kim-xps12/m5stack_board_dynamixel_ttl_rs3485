@@ -5,9 +5,10 @@
 HardwareSerial& DXL_SERIAL = Serial1;
 Dynamixel2Arduino dxl;
 
-// M5Stack Core2 PORT A
-const uint8_t RX_SERVO = 32;
-const uint8_t TX_SERVO = 33;
+// M5Stack Core2 PORT A, Compliant with PORTC pin assignment
+// If you use ver.1.0 board, please set RX_SERVO=32, TX_SERVO=33. Pins is inversed... :(
+const uint8_t RX_SERVO = 33;
+const uint8_t TX_SERVO = 32;
 
 const uint8_t DXL_ID = 1;
 const float DXL_PROTOCOL_VERSION = 2.0;
